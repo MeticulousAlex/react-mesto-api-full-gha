@@ -1,4 +1,5 @@
-# Mesto ![Static Badge](https://img.shields.io/badge/In progress-!-yellow)
+# Mesto ![Static Badge](https://img.shields.io/badge/In_process-!-yellow)
+
 
 This is an assembled version of `express-mesto-gha` and `react-mesto-auth`
 
