@@ -150,22 +150,6 @@ function App() {
       .catch(err => console.error(err));
   }
 
-  // const handleTokenCheck = () => {
-  //   if (localStorage.getItem('jwt')) {
-  //     const jwt = localStorage.getItem('jwt');
-  //     auth
-  //       .checkToken(jwt)
-  //       .then(res => {
-  //         fetchTheMainPageData();
-  //         setUserEmail(res.data.email);
-  //         if (res) {
-  //           setLoggedIn(true);
-  //           navigate('/', { replace: true });
-  //         }
-  //       })
-  //       .catch(err => console.error(err));
-  //   }
-  // };
 
   React.useEffect(() => {
     navigate('/signin', { replace: true });
